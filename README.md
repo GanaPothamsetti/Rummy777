@@ -11,3 +11,5 @@ Rummy777 Game test
 1. source code
 2. screenshots for each step
 3. Html report (target/cucumber-reports.html) 
+
+Precondition:: Need to provide the Device name in Base.java 
