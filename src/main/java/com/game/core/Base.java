@@ -36,7 +36,7 @@ public class Base {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir")+"/src/main/resources/app-stage-debug.apk");
 		capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"10");
-		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"S8IB69JVBYV4UGP7");
+		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"S8VBYV4IB769JUGP");
 		capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
 		capabilities.setCapability("appPackage", "com.game.rummy777.stage");
 		capabilities.setCapability("appActivity", "com.game.rummy777.ui.splash.SplashActivity");
