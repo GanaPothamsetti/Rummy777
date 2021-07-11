@@ -12,7 +12,8 @@ import io.cucumber.junit.CucumberOptions;
 			glue={"com.game.stepDefinitions","com.game.hooks"},
 			plugin= {"pretty","html:target/cucumber-reports.html","com.game.core.StartExecution"}, 
 			monochrome = true, 
-			dryRun = false
+			dryRun = false,
+			tags="@test"
 			)
 	 
 	public class TestRunner {

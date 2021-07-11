@@ -218,9 +218,10 @@ public class RummyLogInStepDefinition extends BaseFunctions {
 	}
 	 
 	 @When("user enters {string} as the OTP")
-	 public void enter_OTP(String otp) {
+	 public void enter_OTP(String otp) throws InterruptedException {
 		 driver.findElementById("etOtpPinView").clear();
 		 driver.findElementById("etOtpPinView").sendKeys(otp);
+		 Thread.sleep(3000);
 		 
 			
 		} 

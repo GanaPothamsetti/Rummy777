@@ -27,9 +27,6 @@ public class Base {
 		builder.withIPAddress("127.0.0.1");
 		
 		builder.withArgument(GeneralServerFlag.SESSION_OVERRIDE);
-		
-
-		
 		service = AppiumDriverLocalService.buildService(builder);
 		service.clearOutPutStreams();
 		
